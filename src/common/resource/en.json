@@ -1,0 +1,620 @@
+{
+	"errorBoundary": {
+		"message": "Something went wrong. Please try reloading the page."
+	},
+	"authenticatedLayout": {
+		"missingAuthenticationInformation": "Login Error - Missing authentication information"
+	},
+	"login": {
+		"errors": {
+			"loginFailed": "Login failed. Please try again."
+		},
+		"banner": {
+			"title": "Welcome to Voice Ordering System",
+			"subtitle": "Your Gateway to Effortless Management.",
+			"collaboration": "Seamless Collaboration",
+			"description": "Effortlessly work together with the team in real-time."
+		},
+		"form": {
+			"title": "Sign in to your account",
+			"subtitle": "You can access and discover more about Voice Order System by simply signing in.",
+			"button": "Sign In",
+			"termsAndPrivacyPolicyText": "By signing up to create an account I accept Company's",
+			"termsAndPrivacyPolicyLinks": "<terms>Terms of use</terms> & <privacy>Privacy Policy</privacy>"
+		}
+	},
+	"header": {
+		"greeting": {
+			"morning": "GOOD MORNING",
+			"afternoon": "GOOD AFTERNOON",
+			"evening": "GOOD EVENING",
+			"night": "GOOD NIGHT"
+		}
+	},
+	"navbar": {
+		"items": {
+			"dashboard": "Dashboard",
+			"orders": "Orders",
+			"createOrder": "Create Order",
+			"manageOrder": "Manage Order",
+			"inventory": "Inventory",
+			"accounts": "Accounts",
+			"costCenters": "Cost Centers",
+			"locations": "Locations",
+			"users": "Users",
+			"help": "Help",
+			"logout": "Logout",
+			"admin": "Admin Panel"
+		}
+	},
+	"customSelect": {
+		"failedToLoadOptions": "Failed to load options for "
+	},
+	"tutorial": {
+		"welcomeTitle": "Welcome to Enterprise Voice Ordering System",
+		"welcomeDescription": "A centralized platform for managing voice services, network components, and telecommunications orders across your enterprise",
+		"dashboard": {
+			"title": "Dashboard Overview",
+			"description": "Monitor your voice service metrics, order statuses, and network components through interactive charts. Track TFN distributions, order locations, and carrier-wise components."
+		},
+		"orderDetails": {
+			"title": "Create New Order",
+			"description": "Initiate new voice service orders, changes, or disconnections. Specify SNOW tickets, change management numbers, and service details with proper tracking."
+		},
+		"createLineItems": {
+			"title": "Line Items Creation",
+			"description": "Configure Numbers, Circuits, and Trunk Groups with detailed specifications. Add multiple items efficiently with bulk operations support."
+		},
+		"editInventoryItems": {
+			"title": "Inventory Management",
+			"description": "Maintain and modify your telecommunications inventory including numbers, circuits, and trunk groups. Update configurations and track changes across your network."
+		},
+		"manageOrders": {
+			"title": "Order Management",
+			"description": "Track and manage voice service orders through their lifecycle. Filter by status, type, or assignee, and access detailed order information instantly."
+		},
+		"orderSummary": {
+			"title": "Order Summary View",
+			"description": "Review comprehensive order information including service configurations, line items, and order history. Track status changes and assignee updates."
+		},
+		"inventory": {
+			"title": "Enterprise Inventory",
+			"description": "Access your complete telecommunications inventory. Search, filter, and manage Numbers, Circuits, and Trunk Groups across your enterprise network."
+		},
+		"adminPanel": {
+			"title": "System Administration",
+			"description": "Manage account hierarchies, cost centers, and location details. Monitor Active Directory managed users and control service provider integrations and business rules."
+		},
+		"button": {
+			"previous": "Previous",
+			"next": "Next"
+		}
+	},
+	"dashboard": {
+		"title": "Dashboard",
+		"failedToFetchDashboardData": "Failed to fetch dashboard data",
+		"pieChart": {
+			"voiceOrderStatusChart": "Voice Orders - Status",
+			"serviceSubTypeChart": "TFNs - Service Sub Type",
+			"voiceOrderLocationChart": "Voice Orders - Location",
+			"networkComponentChart": "Network Components - Carrier",
+			"myVoiceOrderChart": "My Voice Orders - Status",
+			"somethingWentWrong": "Something went wrong"
+		},
+		"recentOrders": {
+			"title": "Recent Orders",
+			"button": {
+				"viewAllOrders": "View All Orders"
+			},
+			"noRecordsFound": "No Recent Orders Available"
+		},
+		"barChart": {
+			"title": "Total Number of Network Components created each month",
+			"noDataAvailable": "No Data Available"
+		}
+	},
+	"inventory": {
+		"title": "Inventory",
+		"button": {
+			"previous": "Previous",
+			"continue": "Continue"
+		}
+	},
+	"inventoryTable": {
+		"inventorySearch": "Inventory Search",
+		"button": {
+			"exportToExcel": "Export to Excel"
+		},
+		"noRecordsFound": "No Records Found",
+		"noRecordsFoundDescription": "No inventory records match your search criteria. Try adjusting your filters or search terms.",
+		"sortAscending": "Sorted Ascending",
+		"sortDescending": "Sorted Descending",
+		"failedToFetchColumns": "Failed to fetch columns",
+		"failedToFetchRecords": "Failed to fetch inventory records"
+	},
+	"inventoryTableFilter": {
+		"title": "Search and Filter",
+		"inventorySearchFilter": "Inventory Search Filter",
+		"inventorySearchFilterTooltip": "Make sure to apply the filters before searching.",
+		"lineItemStatus": "Line Item Status",
+		"createdAfter": "Created After",
+		"createdBefore": "Created Before",
+		"field": "Field",
+		"operator": "Operator",
+		"enterValue": "Enter Value",
+		"selectField": "Select Field",
+		"button": {
+			"addFilter": "Add Filter",
+			"clearFilters": "Clear Filters",
+			"applyAndSearch": "Apply and Search"
+		}
+	},
+	"pagination": {
+		"rowsPerPage": "Rows per page",
+		"of": "of"
+	},
+	"createOrder": {
+		"orderDetailsTitle": "Order Details",
+		"numberLineItemsDetailsTitle": "Add Number Details",
+		"circuitLineItemsDetailsTitle": "Add Circuit Details",
+		"trunkGroupLineItemsDetailsTitle": "Add Trunk Group Details",
+		"numberLineItemsSelection": "Select Number Items",
+		"circuitLineItemsSelection": "Select Circuit Items",
+		"trunkGroupLineItemsSelection": "Select Trunk Group Items",
+		"numberLineItemsEditChange": "Edit Number Items",
+		"circuitLineItemsEditChange": "Edit Circuit Items",
+		"trunkGroupLineItemsEditChange": "Edit Trunk Group Items",
+		"numberLineItemsEditDisconnect": "Disconnect Number Items",
+		"circuitLineItemsEditDisconnect": "Disconnect Circuit Items",
+		"trunkGroupLineItemsEditDisconnect": "Disconnect Trunk Group Items",
+		"autoSaveDraftSuccess": "Order auto saved as Draft.",
+		"autoSaveDraftError": "Failed to auto-save draft",
+		"submitSuccess": "Order Submitted successfully. ",
+		"submitError": "Failed to submit order",
+		"saveDraftSuccess": "Order Saved as Draft. ",
+		"saveDraftError": "Failed to save draft",
+		"discardOrderSuccess": "Order Discarded successfully.",
+		"discardOrderError": "Failed to discard order",
+		"failedToFetchTemplate": "Failed to fetch template",
+		"failedToFetchLineItems": "Failed to fetch line items",
+		"button": {
+			"back": "Back",
+			"saveDraft": "Save Draft",
+			"submit": "Submit",
+			"discardOrder": "Discard Order",
+			"continue": "Continue",
+			"reset": "Reset",
+			"resetSelection": "Reset Selection",
+			"createNewOrder": "Create New Order",
+			"editSelectedRecords": "Edit Selected Records",
+			"disconnectSelectedRecords": "Disconnect Selected Records"
+		},
+		"submitConfirmationModal": {
+			"message": "Are you sure you want to submit the order?",
+			"confirmButtonText": "Submit"
+		},
+		"saveDraftConfirmationModal": {
+			"message": "Are you sure you want to save the order as draft?",
+			"confirmButtonText": "Save Draft"
+		}
+	},
+	"orderDetails": {
+		"title": "Order Details",
+		"orderInfo": {
+			"assignee": "Assignee",
+			"status": "Status",
+			"orderId": "Order ID"
+		},
+		"section1": {
+			"title": "Order Information",
+			"orderType": "Order Type*",
+			"orderTypePlaceholder": "Select Order Type",
+			"snowTicketNumber": "SNOW Ticket Number*",
+			"snowTicketNumberPlaceholder": "SNXXXXXXX",
+			"changeManagementNumber": "Change Management Number*",
+			"changeManagementNumberPlaceholder": "CMXXXXXXX",
+			"createdDate": "Created Date",
+			"lastUpdatedDate": "Last Updated Date"
+		},
+		"section2": {
+			"title": "Requestor Details",
+			"createdBy": "Created By*",
+			"contactInformation": "Contact Information*",
+			"contactInformationPlaceholder": "1234567890",
+			"expectedFulfillmentDate": "Expected Fulfillment Date*",
+			"requestedBy": "Requested By*",
+			"requestedByPlaceholder": "Enter Requester Name",
+			"requestedDate": "Requested Date*"
+		}
+	},
+	"serviceProviderDetails": {
+		"title": "Service Details",
+		"serviceProvider": "Service Provider*",
+		"serviceProviderPlaceholder": "Select Service Provider",
+		"networkComponent": "Network Component*",
+		"number": "Number",
+		"trunkGroup": "Trunk Group",
+		"circuit": "Circuit",
+		"numberType": "Number Type*",
+		"numberTypePlaceholder": "Select Number Type",
+		"serviceType": "Service Type*",
+		"serviceTypePlaceholder": "Select Service Type",
+		"serviceSubType": "Service Sub Type*",
+		"serviceSubTypePlaceholder": "Select Service Sub Type",
+		"failedToLoadServiceProvidersInformation": "Failed to load Service Providers Information"
+	},
+	"lineItemsDetails": {
+		"addNewRecords": "Add New Records",
+		"addedRecords": "Added Records",
+		"button": {
+			"addRecords": "Add Records",
+			"resetAllFields": "Reset All Fields",
+			"deleteAllRecords": "Delete All Records"
+		},
+		"deleteAllRecordsMessage": "Are you sure you want to delete all records?",
+		"deleteAllRecordsConfirmButtonText": "Delete",
+		"serial": "Serial"
+	},
+	"lineItemsSelection": {
+		"loadingOrderDetails": "Loading order details"
+	},
+	"manageOrder": {
+		"title": "Manage Order",
+		"errorFetchingOrders": "Failed to fetch orders",
+		"items": {
+			"voiceOrderSearch": "Voice Order Search",
+			"exportToExcel": "Export to Excel"
+		},
+		"button": {
+			"back": "Back",
+			"myOrders": "My Orders",
+			"pendingOrders": "Pending Orders",
+			"draftOrders": "Draft Orders"
+		}
+	},
+	"orderTable": {
+		"button": {
+			"actions": "Actions"
+		},
+		"toolTip": {
+			"sortAscending": "Sorted Ascending",
+			"sortDescending": "Sorted Descending"
+		},
+		"noRecordsFound": "No Records Found",
+		"noRecordsFoundDescription": "No order records match your search criteria. Try adjusting your filters or search terms."
+	},
+	"orderFilter": {
+		"title": "Search and Filter",
+		"orderSearchFilter": "Order Search Filter",
+		"orderSearchFilterTooltip": "Make sure to apply the filters before searching.",
+		"button": {
+			"apply": "Apply",
+			"resetAll": "Reset All"
+		}
+	},
+	"accounts": {
+		"title": "Accounts",
+		"actions": "Actions",
+		"edit": "Edit account",
+		"active": "ACTIVE",
+		"inactive": "INACTIVE",
+		"sortAscending": "Sorted Ascending",
+		"sortDescending": "Sorted Descending",
+		"noRecordsFound": "No Records Found",
+		"noRecordsFoundDescription": "No account records match your search criteria. Try adjusting your filters or search terms.",
+		"fetchingAccountsRecords": "Error fetching accounts records",
+		"fetchingAccountConfig": "Error fetching account configurations",
+		"filter": {
+			"title": "Search and Filter",
+			"accountSearchFilter": "Account Search Filter",
+			"accountSearchFilterTooltip": "Make sure to apply the filters before searching.",
+			"clearFilters": "Clear Filters",
+			"applyAndSearch": "Apply and Search"
+		},
+		"fields": {
+			"accountName": "Account Name*",
+			"accountNamePlaceholder": "Enter account name",
+			"accountDescription": "Description*",
+			"accountDescriptionPlaceholder": "Enter description",
+			"businessArea": "Business Area*",
+			"businessAreaPlaceholder": "Select business area",
+			"accountProductType": "Account Product Type*",
+			"accountProductTypePlaceholder": "Select account product type",
+			"accountType": "Account Type*",
+			"accountTypePlaceholder": "Select account type",
+			"subAccountType": "Sub Account Type",
+			"subAccountTypePlaceholder": "Select sub account type",
+			"accountNumberType": "Account Number Type",
+			"accountNumberTypePlaceholder": "Select account number type",
+			"serviceProvider": "Service Provider*",
+			"serviceProviderPlaceholder": "Select service provider",
+			"userGroup": "User Group*",
+			"userGroupPlaceholder": "Select user group",
+			"parentAccount": "Parent Account",
+			"parentAccountPlaceholder": "Select parent account",
+			"accountMetadata": "Account Metadata",
+			"createdBy": "Created By",
+			"createdByPlaceholder": "Enter created by name",
+			"updatedBy": "Updated By",
+			"updatedByPlaceholder": "Enter updated by name",
+			"status": "Status*",
+			"statusPlaceholder": "Select status",
+			"addKeyValue": "Add Key Value",
+			"keyPlaceholder": "Enter key",
+			"valuePlaceholder": "Enter value"
+		},
+		"modal": {
+			"editTitle": "Edit Account",
+			"addTitle": "Add Account",
+			"accountNameRequired": "Account Name is required",
+			"accountDescriptionRequired": "Description is required",
+			"businessAreaRequired": "Business Area is required",
+			"accountProductTypeRequired": "Account Product Type is required",
+			"accountTypeRequired": "Account Type is required",
+			"serviceProviderRequired": "Service Provider is required",
+			"userGroupRequired": "User Group is required",
+			"statusRequired": "Status is required",
+			"accountAddedSuccessfully": "Account added successfully",
+			"failedToAddAccount": "Failed to add account",
+			"accountUpdatedSuccessfully": "Account updated successfully",
+			"failedToUpdateAccount": "Failed to update account"
+		},
+		"button": {
+			"exportToExcel": "Export to Excel",
+			"addAccount": "Add Account",
+			"editAccount": "Edit Account",
+			"createAccount": "Create Account",
+			"edit": "Edit",
+			"add": "Add",
+			"cancel": "Cancel"
+		}
+	},
+	"costCenters": {
+		"title": "Cost Centers",
+		"actions": "Actions",
+		"edit": "Edit cost center",
+		"active": "ACTIVE",
+		"inactive": "INACTIVE",
+		"sortAscending": "Sorted Ascending",
+		"sortDescending": "Sorted Descending",
+		"noRecordsFound": "No Records Found",
+		"noRecordsFoundDescription": "No cost center records match your search criteria. Try adjusting your filters or search terms.",
+		"errorFetchingCostCentersRecords": "Error fetching cost centers records",
+		"filter": {
+			"title": "Search and Filter",
+			"costCenterSearchFilter": "Cost Center Search Filter",
+			"costCenterSearchFilterTooltip": "Make sure to apply the filters before searching.",
+			"clearFilters": "Clear Filters",
+			"applyAndSearch": "Apply and Search"
+		},
+		"fields": {
+			"name": "Cost Center Name*",
+			"namePlaceholder": "Enter cost center name",
+			"description": "Description*",
+			"descriptionPlaceholder": "Enter cost center description",
+			"businessArea": "Business Area*",
+			"businessAreaPlaceholder": "Select business area",
+			"product": "Product*",
+			"productPlaceholder": "Select product",
+			"createdBy": "Created By",
+			"createdByPlaceholder": "Enter created by name",
+			"updatedBy": "Updated By",
+			"updatedByPlaceholder": "Enter updated by name",
+			"status": "Status*",
+			"statusPlaceholder": "Select status"
+		},
+		"modal": {
+			"editTitle": "Edit Cost Center",
+			"addTitle": "Add Cost Center",
+			"statusRequired": "Status is required",
+			"businessAreaRequired": "Business Area is required",
+			"productRequired": "Product is required",
+			"costCenterAddedSuccessfully": "Cost Center added successfully",
+			"failedToAddCostCenter": "Failed to add cost center",
+			"costCenterUpdatedSuccessfully": "Cost Center updated successfully",
+			"failedToUpdateCostCenter": "Failed to update cost center"
+		},
+		"button": {
+			"exportToExcel": "Export to Excel",
+			"addCostCenter": "Add Cost Center",
+			"editCostCenter": "Edit Cost Center",
+			"createCostCenter": "Create Cost Center",
+			"edit": "Edit",
+			"add": "Add",
+			"cancel": "Cancel"
+		}
+	},
+	"locations": {
+		"title": "Locations",
+		"actions": "Actions",
+		"edit": "Edit location",
+		"active": "ACTIVE",
+		"inactive": "INACTIVE",
+		"sortAscending": "Sorted Ascending",
+		"sortDescending": "Sorted Descending",
+		"noRecordsFound": "No Records Found",
+		"noRecordsFoundDescription": "No location records match your search criteria. Try adjusting your filters or search terms.",
+		"errorFetchingLocationsRecords": "Error fetching locations records",
+		"filter": {
+			"title": "Search and Filter",
+			"locationSearchFilter": "Location Search Filter",
+			"locationSearchFilterTooltip": "Make sure to apply the filters before searching.",
+			"clearFilters": "Clear Filters",
+			"applyAndSearch": "Apply and Search"
+		},
+		"fields": {
+			"locationName": "Location Name*",
+			"locationNamePlaceholder": "Enter location name",
+			"postalCode": "Postal Code*",
+			"postalCodePlaceholder": "Enter postal code",
+			"timezone": "Timezone*",
+			"timezonePlaceholder": "Enter timezone",
+			"contactNumber": "Contact Number*",
+			"contactNumberPlaceholder": "Enter contact number",
+			"email": "Email*",
+			"emailPlaceholder": "Enter email",
+			"address": "Address*",
+			"addressPlaceholder": "Enter address",
+			"city": "City*",
+			"cityPlaceholder": "Enter city name",
+			"state": "State*",
+			"statePlaceholder": "Enter state name",
+			"country": "Country*",
+			"countryPlaceholder": "Enter country name",
+			"createdBy": "Created By",
+			"createdByPlaceholder": "Select created by",
+			"updatedBy": "Updated By",
+			"updatedByPlaceholder": "Select updated by",
+			"status": "Status*",
+			"statusPlaceholder": "Select status"
+		},
+		"modal": {
+			"editTitle": "Edit Location",
+			"addTitle": "Add Location",
+			"statusRequired": "Status is required",
+			"locationAddedSuccessfully": "Location added successfully",
+			"failedToAddLocation": "Failed to add location",
+			"locationUpdatedSuccessfully": "Location updated successfully",
+			"failedToUpdateLocation": "Failed to update location"
+		},
+		"button": {
+			"exportToExcel": "Export to Excel",
+			"addLocation": "Add Location",
+			"editLocation": "Edit Location",
+			"createLocation": "Create Location",
+			"edit": "Edit",
+			"add": "Add",
+			"cancel": "Cancel"
+		}
+	},
+	"users": {
+		"title": "Users Directory",
+		"active": "ACTIVE",
+		"inactive": "INACTIVE",
+		"sortAscending": "Sorted Ascending",
+		"sortDescending": "Sorted Descending",
+		"noRecordsFound": "No Records Found",
+		"noRecordsFoundDescription": "No user records match your search criteria. Try adjusting your filters or search terms.",
+		"errorFetchingUsersRecords": "Error fetching users records",
+		"adManaged": "User access is managed through Active Directory",
+		"filter": {
+			"title": "Search and Filter",
+			"userSearchFilter": "Users Search Filter",
+			"userSearchFilterTooltip": "Filter and view Active Directory managed users.",
+			"username": "Username",
+			"usernamePlaceholder": "Enter username",
+			"email": "Email",
+			"emailPlaceholder": "Enter email",
+			"userGroup": "User Group",
+			"userGroupPlaceholder": "Select user group",
+			"appRole": "App Role",
+			"appRolePlaceholder": "Select app role",
+			"status": "Status",
+			"statusPlaceholder": "Select status",
+			"clearFilters": "Clear Filters",
+			"applyAndSearch": "Apply and Search"
+		},
+		"button": {
+			"exportToExcel": "Export to Excel"
+		},
+		"fields": {
+			"username": "Username",
+			"email": "Email",
+			"userGroup": "User Group",
+			"appRole": "Application Role",
+			"status": "Status",
+			"lastLogin": "Last Login",
+			"createdAt": "Created At",
+			"updatedAt": "Last Updated"
+		}
+	},
+	"regex": {
+		"phoneNumber": "Phone number must be 10 digits",
+		"accountNumber": "Account number must be 10 - 15 digits",
+		"alphanumeric10Characters": "Value must be 10 characters with no special characters",
+		"alphanumeric10CharactersOrLess": "Value must be less than 10 characters with no special characters",
+		"alphanumeric50CharactersOrLess": "Value must be less than 50 characters with no special characters",
+		"alphanumeric50CharactersOrLessWithSpaces": "Value must be less than 50 characters with no special characters and can include spaces",
+		"nonNumericWithSpaces50Characters": "Value must be less than 50 characters with no numbers and can include spaces",
+		"email": "Invalid email address format",
+		"numeric": "Value must be numeric",
+		"max100Characters": "Value must be less than 100 characters",
+		"max200Characters": "Value must be less than 200 characters",
+		"max25Characters": "Value must be less than 25 characters",
+		"min1max100Characters": "Value is required and must be less than 100 characters"
+	},
+	"comments": {
+		"title": "Comments",
+		"placeholder": "Add a comment",
+		"tooltip": "Add comment",
+		"failedToAddComment": "Failed to add comment",
+		"failedToFetchComments": "Failed to fetch comments",
+		"commentAddedSuccessfully": "Comment added successfully"
+	},
+	"confirmationModal": {
+		"confirmButtonText": "Confirm",
+		"cancelButtonText": "Cancel"
+	},
+	"customizeTable": {
+		"title": "Customize Table",
+		"customizeColumns": "Customize Columns",
+		"reset": "Reset",
+		"apply": "Apply"
+	},
+	"orderSummary": {
+		"orderInfo": {
+			"status": "Status",
+			"orderId": "Order ID",
+			"assignee": "Assignee",
+			"selectAssignee": "Select assignee",
+			"statusChangeError": "Failed to update order status",
+			"assigneeChangeError": "Failed to update order assignee"
+		},
+		"orderDetails": {
+			"title": "Order Details",
+			"editOrder": "Edit Order",
+			"viewLogs": "View Logs",
+			"editOrderTooltip": "Orders can only be edited when they are in \"FORM IN PROGRESS\" status and are assigned to you.",
+			"orderType": "Order Type",
+			"snowTicketNumber": "SNOW Ticket Number",
+			"changeManagementNumber": "Change Management Number",
+			"createdBy": "Created By",
+			"contactInformation": "Contact Information",
+			"expectedFulfillmentDate": "Expected Fulfillment Date",
+			"requestedBy": "Requested By",
+			"requestedDate": "Requested Date",
+			"serviceProvider": "Service Provider",
+			"networkComponent": "Network Component",
+			"numberType": "Number Type",
+			"serviceType": "Service Type",
+			"serviceSubType": "Service Sub Type",
+			"createdDate": "Created Date",
+			"lastUpdatedDate": "Last Updated Date"
+		},
+		"lineItems": {
+			"title": "Line Items",
+			"numberConfig": "Number Details",
+			"trunkGroupConfig": "Trunk Group Details",
+			"circuitConfig": "Circuit Details",
+			"channelConfig": "Channel Configuration Details"
+		},
+		"logs": {
+			"title": "Order Logs",
+			"statusChanged": "Status changed from",
+			"to": "to",
+			"assigneeChanged": "Assignee changed from",
+			"noLogs": "No logs found",
+			"noLogsDescription": "No logs found for this order",
+			"failedToFetchOrderTransitions": "Failed to fetch status and assignee logs"
+		},
+		"invalidOrderView": {
+			"invalidOrderId": "The Order ID you're trying to access is invalid",
+			"invalidOrderIdDescription": "Make sure the Order ID is correct. If the issue persists, please contact administrator for assistance.",
+			"restrictedOrder": "The Order ID you're trying to access is restricted",
+			"restrictedOrderDescription": "You don't have permission to view this order. Please contact your administrator for access.",
+			"somethingWentWrong": "Something went wrong",
+			"somethingWentWrongDescription": "An error occurred while processing your request. Please try again later."
+		},
+		"failedToFetchOrderDetails": "Failed to fetch order details"
+	}
+}

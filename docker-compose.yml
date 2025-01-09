@@ -1,0 +1,32 @@
+services:
+  vos-ui:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        - PORT=${PORT}
+        - VITE_CLIENT_ID=${VITE_CLIENT_ID}
+        - VITE_AUTHORITY=${VITE_AUTHORITY}
+        - VITE_REDIRECT_URI=${VITE_REDIRECT_URI}
+        - VITE_API_BASE_URL=${VITE_API_BASE_URL}
+        - VITE_VOS_ADMINISTRATOR_GROUP_ID=${VITE_VOS_ADMINISTRATOR_GROUP_ID}
+        - VITE_VOS_VOICE_ENGINEER_GROUP_ID=${VITE_VOS_VOICE_ENGINEER_GROUP_ID}
+        - VITE_VOS_VENDOR_GROUP_ID=${VITE_VOS_VENDOR_GROUP_ID}
+        - VITE_VOS_READ_ONLY_GROUP_ID=${VITE_VOS_READ_ONLY_GROUP_ID}
+    container_name: vos-ui
+    ports:
+      - "3000:3000"
+    healthcheck:
+      test: ["CMD", "wget", "--quiet", "--tries=1", "--spider", "http://localhost:3000/health"]
+      interval: 30s
+      timeout: 3s
+      retries: 3
+    restart: unless-stopped
+    security_opt:
+      - no-new-privileges:true
+    networks:
+      - vos-network
+
+networks:
+  vos-network:
+    driver: bridge

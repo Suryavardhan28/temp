@@ -1,0 +1,51 @@
+{
+	"name": "cloud_vos-ui",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "bunx --bun vite",
+		"build": "tsc -b && bunx --bun vite build",
+		"preview": "vite preview",
+		"lint": "bunx biome lint",
+		"format": "bunx biome format",
+		"check": "bunx biome check",
+		"checkfix": "bunx biome check --write --verbose",
+		"prepare": "husky"
+	},
+	"dependencies": {
+		"@azure/msal-browser": "^3.28.0",
+		"@azure/msal-react": "^2.2.0",
+		"@emotion/react": "^11.14.0",
+		"@emotion/styled": "^11.14.0",
+		"@mui/icons-material": "^6.3.1",
+		"@mui/lab": "5.0.0-alpha.165",
+		"@mui/material": "^6.3.1",
+		"@mui/x-charts": "^7.23.2",
+		"@mui/x-date-pickers": "^7.23.3",
+		"@reduxjs/toolkit": "^2.5.0",
+		"@types/lodash": "^4.17.14",
+		"axios": "^1.7.9",
+		"dayjs": "^1.11.13",
+		"i18next": "^23.16.8",
+		"i18next-browser-languagedetector": "^8.0.2",
+		"lodash": "^4.17.21",
+		"react": "^18.3.1",
+		"react-dom": "^18.3.1",
+		"react-i18next": "^15.4.0",
+		"react-redux": "^9.2.0",
+		"react-router-dom": "^6.28.1"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.9.3",
+		"@types/react": "^18.3.18",
+		"@types/react-dom": "^18.3.5",
+		"@vitejs/plugin-react-swc": "^3.7.2",
+		"bun-types": "^1.1.43",
+		"husky": "^9.1.7",
+		"typescript": "^5.7.3",
+		"vite": "^5.4.11"
+	},
+	"module": "index.ts",
+	"trustedDependencies": ["@biomejs/biome", "@swc/core", "esbuild"]
+}

@@ -1,0 +1,30 @@
+# Version control
+.git
+.gitignore
+
+# Dependencies
+node_modules
+
+
+# Build output
+build
+dist
+
+# Development files
+.env*
+*.log
+.DS_Store
+.vscode
+.idea
+*.md
+tests
+coverage
+
+# Docker
+Dockerfile
+.dockerignore
+docker-compose*
+
+# Kubernetes
+k8s
+*.yaml

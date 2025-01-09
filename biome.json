@@ -1,0 +1,72 @@
+{
+	"$schema": "https://biomejs.dev/schemas/1.9.3/schema.json",
+	"files": {
+		"ignore": ["node_modules", "build", "*.svg"],
+		"ignoreUnknown": true
+	},
+	"organizeImports": {
+		"enabled": true
+	},
+	"linter": {
+		"enabled": true,
+		"rules": {
+			"recommended": true,
+			"a11y": {
+				"useAltText": "warn",
+				"noSvgWithoutTitle": "off",
+				"useSemanticElements": "off"
+			},
+			"suspicious": {
+				"noExplicitAny": "warn",
+				"noConsoleLog": "warn",
+				"useAwait": "warn"
+			},
+			"style": {
+				"useImportType": "warn",
+				"useExportType": "warn",
+				"noUselessElse": "warn"
+			},
+			"correctness": {
+				"useExhaustiveDependencies": "off"
+			},
+			"complexity": {
+				"noForEach": "off"
+			},
+			"performance": {
+				"noAccumulatingSpread": "off"
+			}
+		}
+	},
+	"formatter": {
+		"enabled": true,
+		"ignore": ["node_modules", "build", "*.svg"],
+		"formatWithErrors": false,
+		"indentWidth": 4,
+		"lineWidth": 80,
+		"lineEnding": "crlf",
+		"attributePosition": "auto",
+		"indentStyle": "tab"
+	},
+	"javascript": {
+		"formatter": {
+			"enabled": true,
+			"jsxQuoteStyle": "double",
+			"quoteProperties": "asNeeded",
+			"arrowParentheses": "always",
+			"bracketSameLine": false,
+			"bracketSpacing": true,
+			"semicolons": "always",
+			"trailingCommas": "all"
+		}
+	},
+	"json": {
+		"formatter": {
+			"trailingCommas": "none"
+		}
+	},
+	"vcs": {
+		"enabled": true,
+		"clientKind": "git",
+		"useIgnoreFile": true
+	}
+}
